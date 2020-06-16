@@ -1,37 +1,38 @@
 <html>
 <head>
+<title>sevence</title>
 <style>
 body {
   background: #414042;
-  font-size: 80%;
-  padding: 20px;
+  font-family: "Courier New", Courier, monospace;
 }
-#main {
-  position: relative;
+.container {
   background: #c9c9c9;
   height: 100%;
   width: 100%;
-  margin: 0 auto;
-  padding: 0;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#main div {
+.item {
   background: transparent;
-  color: white;
-  width: 340px;
-  height: 340px;
-  margin: -170px 0 0 -170px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  padding: 20px;
+  color: #414042;
+  font-size: 2em;
+}
+.content {
+  text-align: center;
+  word-break: break-all;
 }
 </style>
 </head>
 <body>
-&nbsp;
-<div id="main">
-  <div><a href="https://www.boomtime.com"><img src="https://avatars1.githubusercontent.com/u/1482442" /></a></div>
+<div class="container">
+  <div class="item">
+    <div class="content">
+      <a href="https://www.boomtime.com"><img src="https://avatars1.githubusercontent.com/u/1482442" /></a>
+    </div>
+  </div>
 </div>
 </body>
 </html>
